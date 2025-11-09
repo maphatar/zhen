@@ -39,6 +39,7 @@ function herd(options = {}) {
     dsn,
     environment,
     release: release || git.commit,
+    debug: debug
   });
 
   const shepherd =
